@@ -1,0 +1,642 @@
+/* Paramètres du texte */
+h1, h2
+{
+    font-size: 45px;
+}
+
+h3
+{
+    font-size: 40px;
+}
+
+h4
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+h5
+{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p
+{
+    font-size: 32px;
+    line-height: 10%;
+}
+
+#texteinfo p
+{
+    font-size: 32px;
+    line-height: 100%;
+}
+
+#listeapropos p, #listenoshebergements p, #listeassistance p
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 32px;
+    line-height: 170%;
+}
+
+#titresoleil p, #titreeau p, #titrebleu p
+{
+    font-size: 32px;
+    line-height: 50%;    
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#notesoleil p, #noteeau p, #notebleu p
+{
+    font-size: 22px;
+    line-height: 450%;
+}
+
+b
+{
+    font-weight: bold;
+}
+
+
+/* Paramètres de la page */
+html
+{
+    height: 1910px;
+    width: 2880px;
+    transform: scale(0.5);
+    transform-origin: top left;
+    overflow-x: hidden;
+}
+
+body
+{
+    height: 1910px;
+    width: 2880px;
+}
+
+#page
+{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 170px;
+    margin-top: 100px;
+    margin-bottom: 170px;
+    height: 3100px;
+    width: 2710px;
+}
+
+/* Paramètres communs à tous les liens*/
+nav a
+{
+    text-decoration: none;
+    color: #181818;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+}
+
+/* Paramètres de l'en-tête */
+#entete
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    margin-left: 20px;
+}
+
+#intro
+{
+    padding-bottom: 20px;
+}
+
+/* Paramètres des liens Hébergments et Activités*/
+#liens
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 100%;
+    margin-right: 50px;
+}
+
+#hebergements:hover, #activites:hover
+{
+    color: #0065FC;
+    border-top: 6px solid #0065FC;
+}
+
+#hebergements, #activites
+{
+    margin: 20px;
+    font-size: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+/* Paramètres de l'outil de recherche */
+#recherche
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#mapmarker
+{
+    border:0px solid #F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+    height:80px;
+    width:90px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.ville
+{
+    border:2px solid #F2F2F2;
+    height:75px;
+    width:400px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.trouver
+{
+    border-radius: 0px 20px 20px 0px;
+    height:80px;
+    width:250px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.trouver:hover
+{
+    font-size: 35px;
+}
+
+
+#loupe
+{
+    display: none;
+}
+
+/* Paramètres des filtres */
+
+#filtre
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#filtres
+{
+    color: #0065FC;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#economique, #familial, #romantique, #animaux
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top:4px solid #D3D3D3;
+    border-right: 4px solid #D3D3D3;
+    border-bottom: 4px solid #D3D3D3;
+    border-left: 0px;
+    height:76px;
+    width:320px;
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px 30px 30px 40px;
+}
+
+#familial
+{
+    width:250px;
+}
+
+#romantique
+{
+    width:310px;
+}
+
+#animaux
+{
+    width:420px;
+}
+
+#logoecon, #logofam, #logorom, #logoanim
+{
+    border:2px solid #DEEBFF;
+    border-radius: 40px 40px 40px 40px;
+    height:80px;
+    width:80px;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#lieneco, #lienfam, #lienrom, #lienanim 
+{
+    margin: 0px 0px 0px 25px;
+}
+
+#filtre a
+{
+    margin: auto;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    padding-top: 30px;
+}
+
+#filtre a:hover
+{
+    color: #0065FC;
+    font-size: 35px;
+}
+
+/* Paramètres de la ligne d'information */
+
+#information
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: -20px;
+}
+
+#logoinfo
+{
+    border:4px solid #F2F2F2;
+    border-radius: 29px 29px 29px 29px;
+    height:50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #0065FC;
+    flex: none;
+}
+
+#texteinfo
+{
+    margin-left: 20px;
+}
+
+
+/* Paramètres Hébergements - populaires - activités */
+
+#marseille
+{
+    height: 2500px;
+    width: 2650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Paramètres Hébergements à Marseille */
+#logements
+{
+    height: 1150px;
+    width: 1600px;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    border-radius: 35px 35px 35px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hebergementsmarseille
+{
+    height: 900px;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#cannebiere, #port, #mouettes, #mer, #panier, #amina
+{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 15px 15px 15px #D3D3D3;
+}
+
+#cannebiere:hover, #port:hover, #mouettes:hover, #mer:hover, #panier:hover, #amina:hover
+{
+    border: 2px solid #0065FC;
+}
+
+.photocannebiere, .photoport, .photomouettes, .photomer, .photopanier, .photoamina
+{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 220px;
+    width: 480px;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#titrecannebiere, #titreport, #titremouettes, #titremer, #titrepanier, #titreamina
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#notecannebiere, #noteport, #notemouettes, #notemer, #notepanier, #noteamina
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.etoilebleue
+{
+    color: #0065FC;
+}
+
+.etoilegrise
+{
+    color: #F2F2F2;
+    margin-left: 5px;
+}
+
+#afficherplus a
+{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logements
+{
+    font-size: 100%;
+    color: #181818;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.logements:hover
+{
+    color: #0065FC;
+}
+
+/* Paramètres Les plus populaires */
+
+#titrepopulaires
+{
+    margin-bottom: 30px;
+}
+
+#entetepopulaires
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logopopulaires
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#populaires
+{
+    margin-left: 50px;
+    height: 1150px;
+    width: 700px;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    border-radius: 35px 35px 35px 35px;
+}
+
+#hebergementspopulaires
+{
+    height: 900px;
+    width: 820px;
+}
+
+#soleil, #eau, #bleu
+{
+    height: 270px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px 35px 35px 35px;
+    margin-bottom: 50px;
+    box-shadow: 15px 15px 15px #D3D3D3;
+}
+
+#soleil:hover, #eau:hover, #bleu:hover
+{
+    border: 2px solid #0065FC;
+}
+
+.photosoleil, .photoeau, .photobleu
+{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 250px;
+    width: 260px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#descriptionsoleil, #descriptioneau, #descriptionbleu
+{
+    height: 200px;
+    width: 400px;
+}
+
+#titresoleil, #titreeau, #titrebleu
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+#notesoleil, #noteeau, #notebleu
+{
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Paramètres Activités à Marseille */
+
+#titreactivites
+{
+    margin-bottom: 30px;
+}
+
+#activitesamarseille
+{
+    height: 1150px;
+    width: 2550px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 35px 35px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#activitesmarseille
+{
+    height: 900px;
+    width: 2550px;
+    display: flex;
+    flex-direction: row;
+}
+
+#vieuxport, #calanques
+{
+    height: 880px;
+    width: 620px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 15px 15px 15px #F2F2F2;
+    margin-right: 90px;
+}
+
+#vieuxport:hover, #fort:hover, #iles:hover, #calanques:hover, #garde:hover, #champ:hover
+{
+    border: 2px solid #0065FC;
+}
+
+.photovieuxport, .photocalanques
+{
+    max-width: 100%;
+    object-fit: none;
+    height: 765px;
+    width: 620px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+#titrevieuxport, #titrefort, #titreiles, #titrecalanques, #titregarde, #titrechamp
+{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#fort, #garde
+{
+    height: 450px;
+    width: 620px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 15px 15px 15px #F2F2F2;
+    margin-bottom: 90px;
+}
+
+.photofort, .photogarde
+{
+    max-width: 100%;
+    object-fit: cover;
+    height: 335px;
+    width: 620px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+#iles, #champ
+{
+    height: 340px;
+    width: 620px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 15px 15px 15px #F2F2F2;
+}
+
+.photoiles, .photochamp
+{
+    max-width: 100%;
+    object-fit: cover;
+    height: 225px;
+    width: 620px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+#calanques
+{
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+footer
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 2880px;
+    background-color: #F2F2F2;
+    padding-top: 50px;
+}
+
+#apropos, #noshebergements, #assistance
+{
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 400px;
+    width: 700px;
+}
