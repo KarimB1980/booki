@@ -76,20 +76,12 @@ html
     overflow-x: hidden;
 }
 
-body
-{
-    height: 1910px;
-    width: 2880px;
-}
-
 #page
 {
     font-family: 'Raleway', sans-serif;
     margin-left: 170px;
     margin-top: 100px;
     margin-bottom: 170px;
-    height: 3100px;
-    width: 2710px;
 }
 
 /* Paramètres communs à tous les liens*/
@@ -367,7 +359,6 @@ nav a:hover
 .photocannebiere, .photoport, .photomouettes, .photomer, .photopanier, .photoamina
 {
     max-width: 100%;
-    max-width: 100%;
     object-fit: cover;
     height: 220px;
     width: 480px;
@@ -639,4 +630,410 @@ footer
     margin-right: 100px;
     height: 400px;
     width: 700px;
+}
+
+
+@media all and (min-width: 1430px) and (max-width: 1440px)
+{
+    html
+    {
+        transform: scale(0.5);
+        height: 1910px
+    }
+}
+
+@media all and (min-width: 1420px) and (max-width: 1430px)
+{
+    html
+    {
+        transform: scale(0.496515679442509);
+        height: 1896.68989547038px
+    }
+}
+
+@media all and (min-width: 1410px) and (max-width: 1420px)
+{
+    html
+    {
+        transform: scale(0.493031358885017);
+        height: 1883.37979094077px
+    }
+}
+
+@media all and (min-width: 1400px) and (max-width: 1410px)
+{
+    html
+    {
+        transform: scale(0.489547038327526);
+        height: 1870.06968641115px
+    }
+}
+
+@media all and (min-width: 1390px) and (max-width: 1400px)
+{
+    html
+    {
+        transform: scale(0.486062717770035);
+        height: 1856.75958188153px
+    }
+}
+
+@media all and (min-width: 1380px) and (max-width: 1390px)
+{
+    html
+    {
+        transform: scale(0.482578397212544);
+        height: 1843.44947735192px
+    }
+}
+
+@media all and (min-width: 1370px) and (max-width: 1380px)
+{
+    html
+    {
+        transform: scale(0.479094076655052);
+        height: 1830.1393728223px
+    }
+}
+
+@media all and (min-width: 1360px) and (max-width: 1370px)
+{
+    html
+    {
+        transform: scale(0.475609756097561);
+        height: 1816.82926829268px
+    }
+}
+
+@media all and (min-width: 1350px) and (max-width: 1360px)
+{
+    html
+    {
+        transform: scale(0.47212543554007);
+        height: 1803.51916376307px
+    }
+}
+
+@media all and (min-width: 1340px) and (max-width: 1350px)
+{
+    html
+    {
+        transform: scale(0.468641114982578);
+        height: 1790.20905923345px
+    }
+}
+
+@media all and (min-width: 1330px) and (max-width: 1340px)
+{
+    html
+    {
+        transform: scale(0.465156794425087);
+        height: 1776.89895470383px
+    }
+}
+
+@media all and (min-width: 1320px) and (max-width: 1330px)
+{
+    html
+    {
+        transform: scale(0.461672473867596);
+        height: 1763.58885017422px
+    }
+}
+
+@media all and (min-width: 1310px) and (max-width: 1320px)
+{
+    html
+    {
+        transform: scale(0.458188153310105);
+        height: 1750.2787456446px
+    }
+}
+
+@media all and (min-width: 1300px) and (max-width: 1310px)
+{
+    html
+    {
+        transform: scale(0.454703832752613);
+        height: 1736.96864111498px
+    }
+}
+
+@media all and (min-width: 1290px) and (max-width: 1300px)
+{
+    html
+    {
+        transform: scale(0.451219512195122);
+        height: 1723.65853658537px
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1290px)
+{
+    html
+    {
+        transform: scale(0.447735191637631);
+        height: 1710.34843205575px
+    }
+}
+
+@media all and (min-width: 1270px) and (max-width: 1280px)
+{
+    html
+    {
+        transform: scale(0.444250871080139);
+        height: 1697.03832752613px
+    }
+}
+
+@media all and (min-width: 1260px) and (max-width: 1270px)
+{
+    html
+    {
+        transform: scale(0.440766550522648);
+        height: 1683.72822299652px
+    }
+}
+
+@media all and (min-width: 1250px) and (max-width: 1260px)
+{
+    html
+    {
+        transform: scale(0.437282229965157);
+        height: 1670.4181184669px
+    }
+}
+
+@media all and (min-width: 1240px) and (max-width: 1250px)
+{
+    html
+    {
+        transform: scale(0.433797909407665);
+        height: 1657.10801393728px
+    }
+}
+
+@media all and (min-width: 1230px) and (max-width: 1240px)
+{
+    html
+    {
+        transform: scale(0.430313588850174);
+        height: 1643.79790940767px
+    }
+}
+
+@media all and (min-width: 1220px) and (max-width: 1230px)
+{
+    html
+    {
+        transform: scale(0.426829268292683);
+        height: 1630.48780487805px
+    }
+}
+
+@media all and (min-width: 1210px) and (max-width: 1220px)
+{
+    html
+    {
+        transform: scale(0.423344947735192);
+        height: 1617.17770034843px
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1210px)
+{
+    html
+    {
+        transform: scale(0.4198606271777);
+        height: 1603.86759581882px
+    }
+}
+
+@media all and (min-width: 1190px) and (max-width: 1200px)
+{
+    html
+    {
+        transform: scale(0.416376306620209);
+        height: 1590.5574912892px
+    }
+}
+
+@media all and (min-width: 1180px) and (max-width: 1190px)
+{
+    html
+    {
+        transform: scale(0.412891986062718);
+        height: 1577.24738675958px
+    }
+}
+
+@media all and (min-width: 1170px) and (max-width: 1180px)
+{
+    html
+    {
+        transform: scale(0.409407665505227);
+        height: 1563.93728222997px
+    }
+}
+
+@media all and (min-width: 1160px) and (max-width: 1170px)
+{
+    html
+    {
+        transform: scale(0.405923344947735);
+        height: 1550.62717770035px
+    }
+}
+
+@media all and (min-width: 1150px) and (max-width: 1160px)
+{
+    html
+    {
+        transform: scale(0.402439024390244);
+        height: 1537.31707317073px
+    }
+}
+
+@media all and (min-width: 1140px) and (max-width: 1150px)
+{
+    html
+    {
+        transform: scale(0.398954703832753);
+        height: 1524.00696864112px
+    }
+}
+
+@media all and (min-width: 1130px) and (max-width: 1140px)
+{
+    html
+    {
+        transform: scale(0.395470383275261);
+        height: 1510.6968641115px
+    }
+}
+
+@media all and (min-width: 1120px) and (max-width: 1130px)
+{
+    html
+    {
+        transform: scale(0.39198606271777);
+        height: 1497.38675958188px
+    }
+}
+
+@media all and (min-width: 1110px) and (max-width: 1120px)
+{
+    html
+    {
+        transform: scale(0.388501742160279);
+        height: 1484.07665505226px
+    }
+}
+
+@media all and (min-width: 1100px) and (max-width: 1110px)
+{
+    html
+    {
+        transform: scale(0.385017421602787);
+        height: 1470.76655052265px
+    }
+}
+
+@media all and (min-width: 1090px) and (max-width: 1100px)
+{
+    html
+    {
+        transform: scale(0.381533101045296);
+        height: 1457.45644599303px
+    }
+}
+
+@media all and (min-width: 1080px) and (max-width: 1090px)
+{
+    html
+    {
+        transform: scale(0.378048780487805);
+        height: 1444.14634146341px
+    }
+}
+
+@media all and (min-width: 1070px) and (max-width: 1080px)
+{
+    html
+    {
+        transform: scale(0.374564459930314);
+        height: 1430.8362369338px
+    }
+}
+
+@media all and (min-width: 1060px) and (max-width: 1070px)
+{
+    html
+    {
+        transform: scale(0.371080139372822);
+        height: 1417.52613240418px
+    }
+}
+
+@media all and (min-width: 1050px) and (max-width: 1060px)
+{
+    html
+    {
+        transform: scale(0.367595818815331);
+        height: 1404.21602787456px
+    }
+}
+
+@media all and (min-width: 1040px) and (max-width: 1050px)
+{
+    html
+    {
+        transform: scale(0.36411149825784);
+        height: 1390.90592334495px
+    }
+}
+
+@media all and (min-width: 1030px) and (max-width: 1040px)
+{
+    html
+    {
+        transform: scale(0.360627177700348);
+        height: 1377.59581881533px
+    }
+}
+
+@media all and (min-width: 1020px) and (max-width: 1030px)
+{
+    html
+    {
+        transform: scale(0.357142857142857);
+        height: 1364.28571428571px
+    }
+}
+
+@media all and (min-width: 1010px) and (max-width: 1020px)
+{
+    html
+    {
+        transform: scale(0.353658536585366);
+        height: 1350.9756097561px
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1010px)
+{
+    html
+    {
+        transform: scale(0.350174216027875);
+        height: 1337.66550522648px
+    }
+}
+
+@media all and (min-width: 991.5px) and (max-width: 1000px)
+{
+    html
+    {
+        transform: scale(0.346689895470383);
+        height: 1324.35540069686px
+    }
 }
